@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>A</span>nmol <span>U</span>padhyay</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#skills" data-after="Skill">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Anmol Upadhyay <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Skill Section -->
+  <section id="skills">
+    <div class="skills container">
+      <div class="skill-top">
+        <h1 class="section-title">Sk<span>il</span>ls</h1>
+        <p>1. JAVA<br>2. CSS beginner level<br>3. HTML beginner level<br>4.Basics of JAVA Script<br>
+            I'm also having a basic understanding of web developement and I will work with my utmost devotion to sharpen my skill and do even better in the coming future.<br>
+            I believe that with the proper coordination of team we can achieve any heights.
+        </p>
+      </div>
+      <div class="skill-bottom">
+        <div class="skill-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Web Design</h2>
+          <p>Beginner level, will improve it in coming future. </p>
+        </div>
+        <div class="skill-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Team work</h2>
+          <p>Good at working as a team.</p>
+        </div>        
+        <div class="skill-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Communication</h2>
+          <p>Good communication skills and will improve it to professional level.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End skill Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Google Clone</h2>
+            <p>I've made a fully responsive google clone recently with the help of basic knowledge of HTML,CSS and JAVA Script.
+                
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>HTML Programs</h2>
+            <p>I've also done a lot of mini projects using HTML which gave me a better understanding of how to use HTML in structuing of websites which i think i can use in developing when being in the team.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Website Developement</h2>
+            <p>I've also designed some websites an example is this one also and I'm also having an experience of using web editors like wix etc.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="">
+          </div>
+        </div>    
+        </div>
+      </div>    
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Beginner Web Developer</h2>
+        <p>I'm Anmol Upadhyay from Chemical Engineering department I'm pursuing B.Tech. from IIT Madras. I'm am enthusiastic in the field of technology and developement and I think WebOps would be a great place for me to learn more and polish my skills. 
+            I want to be a part of the WebOps team as a coordinator. I assure that I will work with full dedication and will work for the betterment of the team and which will obvioulsy upskill me as well. 
+        </p>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>8384806663</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>ch22b053@smail.iitm.ac.in</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Mandakini IIT Madras , Chennai T.N.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>A</span>nmol <span>U</span>padhyay</h1>
+      </div>
+      <h2>Application for WebOps coordinator</h2>
+      <p>Copyright 2023 Anmol. All rights reserved</p>
+      
+      </div>
+      <p>Copyright 2023 Anmol. All rights reserved</p>
+    
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
